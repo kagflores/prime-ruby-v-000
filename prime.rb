@@ -8,7 +8,7 @@ def prime?(integer)
   while i < limit
     if integer % i == 0
       return false
-    end 
+    end
     i += 1
     limit = integer/i
   end
