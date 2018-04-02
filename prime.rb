@@ -1,10 +1,16 @@
 # Add  code here!
 def prime?(integer)
   if integer <= 1
-    false
-  elsif integer == 2 || integer == 3
-    true
-  elsif integer % 2 == 0
-    false
+    return false
   end
+  i = 2
+  limit = integer/i
+  while i < limit
+    if integer % i == 0
+      return false
+    end 
+    i += 1
+    limit = integer/i
+  end
+  return true
 end
