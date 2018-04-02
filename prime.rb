@@ -5,6 +5,6 @@ def prime?(integer)
   elsif integer <=3
     true
   elsif
+    true
   end
-
 end
