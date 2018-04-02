@@ -4,7 +4,7 @@ def prime?(integer)
     false
   elsif n <=3
     true
-  elsif 
-  end    
-    
+  elsif
+  end
+
 end
